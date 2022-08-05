@@ -2,16 +2,8 @@
   "extends": [
     "config:base"
   ],
-  "assignees": [
-    "CCKNBC"
-  ],
-  "separateMinorPatch": true,
   "packageRules": [
     {
-      "updateTypes": [
-          "minor",
-          "patch"
-      ],
       "automerge": true,
       "automergeType": "branch"
     }
